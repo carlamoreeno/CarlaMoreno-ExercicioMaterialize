@@ -1,0 +1,81 @@
+/* Seletores de Tags por ordem alfabética*/
+body{
+  background-image: url("img/background/literature.jpg");
+  background-attachment: fixed;
+  background-color: #cccccc;
+  background-repeat: repeat;
+}
+footer{
+  background-color: white;
+  margin-bottom: 0vh;
+}
+nav{
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+}
+ul{
+  font-family: 'Dosis', sans-serif;
+}
+
+/* Seletores de Classe por ordem alfabética */
+/* Botão de para enviar mensagem */
+.btn{
+    background-color: #808080;
+    width: 120px;
+    font-size: 16px;
+    margin: 50px -20px 20px 360px;
+    transition: 0.3s;
+}
+/* Transition do botão que envia a mensagem quando sob o cursor */
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+.container{
+  color: black;
+}
+.disabled{
+  color: black;
+  pointer-events: none;
+}
+.enfase{
+  font-size: 40px;
+  margin-left: -90px;
+}
+.icon{
+  height: 42px;
+  width: 42px;
+}
+.row{
+  margin-top: 20vh;
+  margin-right: 70vh;
+  margin-left: 30vh;
+}
+
+/* Seletores de id por ordem alfabética*/
+#dados{
+  color: grey;
+}
+#footer{
+  margin-top: 20vh;
+  margin-right: 30vh;
+  margin-left: 30vh;
+}
+#mensagem{
+  width: 320%;
+  height: 80px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+  resize: none;
+  border-bottom: 2px solid #d3d3d3;
+}
+#txtdados {
+    width: 320%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #d3d3d3;
+}

@@ -1,0 +1,42 @@
+/* Seletores de Tags por ordem alfabética*/
+body{
+  background-image: url("img/background/record-player.jpg");
+  background-attachment: fixed;
+  background-color: #cccccc;
+  background-repeat: repeat;
+}
+footer{
+  background-color: white;
+  margin-bottom: 0vh;
+}
+nav{
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+}
+p{
+  font-size: 20px;
+}
+ul{
+  font-family: 'Dosis', sans-serif;
+}
+
+/* Seletores de Classe por ordem alfabética */
+.container{
+  color: black;
+}
+.disabled{
+  color: black;
+  pointer-events: none;
+}
+.enfase{
+  font-size: 35px;
+}
+.icon{
+  height: 42px;
+  width: 42px;
+}
+.row{
+  margin-top: 75vh;
+}

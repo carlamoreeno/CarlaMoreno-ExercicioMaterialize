@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!-- Import charset -->
+      <meta charset = "utf-8">
+      <!--Import Google Icon Font-->
+      <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Import Google Font -->
+      <link href = "https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+      <!--Import materialize.css e css-->
+      <link type = "text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+      <link rel = "stylesheet" type="text/css" href="contato.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name = "viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!-- Barra de Navegação (Sadly nessa semana o tempo é nosso inimigo, então não consegui fazer uma página para cada item, faltou blog e eventos)-->
+      <nav>
+        <div class="nav-wrapper">
+          <a href="retro.html" class="brand-logo"><img src="img/logo.svg" alt="logo"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="comingsoon.html">blog</a></li>
+            <li><a href="fleamarket.html">flea market</a></li>
+            <li><a href="comingsoon.html">eventos</a></li>
+            <li><a href="#">contato</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Row branca com o conteúdo do site-->
+      <section>
+        <div class="row white">
+          <div class = "container">
+            <div class = "col l0 s12">
+              <h4 class = "enfase">Contato</h4>
+            </div>
+            <div class = "col l4 s12" id = "dados">
+              <p>Nome:
+                <input type="text" name="fname" id = "txtdados" placeholder = "Nome">
+                <br><br>
+                E-mail:
+                <input type="text" name="lname" id = "txtdados" placeholder = "E-mail">
+                <br><br>
+                Mensagem:
+                <textarea id = "mensagem"></textarea>
+                <button class = "btn" onclick="alert('Agradecemos pelo seu contato!')">ENVIAR</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Row do rodapé -->
+      <footer>
+        <div class = "footercontainer">
+          <div class = "row" id = "footer">
+            <div class="col l4 s12"><br>
+              <!-- Ícone de localização no mapa (para esse caso hipotético, usei a do NCE) -->
+              <a href="https://www.google.com.br/maps/place/Nucleo+de+Computa%C3%A7%C3%A3o+Eletr%C3%B4nica+(NCE)/@-22.8582488,-43.232262,15z/data=!4m5!3m4!1s0x0:0x361a13ea50c1e06e!8m2!3d-22.8582488!4d-43.232262">
+                <img src = "img/icones/map-location.svg" alt = "maplocation" class = "icon">
+                <a class = "disabled"> Rio de Janeiro - RJ</a>
+            </div>
+
+            <div class="col l4 offset-l4 s12"><br>
+              <!-- Ícones das redes sociais (como o site não é de um lugar real, os ícones direcionam para a página inicial das redes) -->
+              <a href="https://www.instagram.com/"><img src = "img/icones/redes-sociais/instagram.svg" class = "icon" alt = "instagramicon">
+              <a href="https://www.twitter.com/"><img src = "img/icones/redes-sociais/twitter.svg" class = "icon" alt = "twittericon">
+              <a href="https://www.facebook.com/"><img src = "img/icones/redes-sociais/facebook.svg" class = "icon" alt = "facebookicon">
+              <a href="https://www.pinterest.com/"><img src = "img/icones/redes-sociais/pinterest.svg" class = "icon" alt = "pinteresticon">
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright">
+          <div class="container">
+            <br><br>
+            <a class = "disabled">© 2018 - Trainee Carla Moreno</a>
+            <br>
+          </div>
+        </div>
+      </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
